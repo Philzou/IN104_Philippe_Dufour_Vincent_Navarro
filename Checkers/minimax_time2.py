@@ -3,7 +3,7 @@ from time import time
 def minimax_alphabeta(state, T,maximize, get_children, evaluate, alpha=-1000, beta=1000):
 # calculer le score ici à l’aide de state.get_children() et state.evaluate()
 	t1=time()
-	temps=1e-10
+	temps=2e-6
 	#print(' '*depth, T)
 	if T<temps:
 		score=evaluate(state)
