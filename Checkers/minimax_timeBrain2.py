@@ -8,7 +8,7 @@ from evaluation2 import evaluate2
 
 class MinimaxBrain:
 
-	def __init__(self, config=None , rules=None,eval=evaluate):
+	def __init__(self, config=None , rules=None,eval=evaluate2):
 		self.name = "AII" # set your AI name here
 		self.depth = 5 # Set the exploration depth here
 		self.time_list = []
