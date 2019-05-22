@@ -11,7 +11,7 @@ from evaluation2 import evaluate2
 #brain1 = MinimaxBrain(eval=evaluate2)
 #brain2 = MinimaxBrain(eval=evaluate)
 brain1 = RandomBrain()
-brain2 = MinimaxBrain(eval=evaluate)
+brain2 = MinimaxBrain()
 timeLimit = 0.1 # each player will have 10 seconds to play
 game = simu.Game(brain1, timeLimit, brain2, timeLimit, rules = {'noCaptureMax' : 25})
 game.displayLevel=1
